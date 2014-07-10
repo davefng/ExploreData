@@ -33,3 +33,4 @@ plot(y,as.numeric(as.character(data$Global_reactive_power)),
   xlab="datetime", ylab="Global_reactive_power", type="n")
 lines(y,as.numeric(as.character(data$Global_reactive_power)))
 dev.off()
+
